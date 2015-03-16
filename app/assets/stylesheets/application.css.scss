@@ -13,3 +13,18 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+@media screen and (max-width:156px) {
+  body {
+    padding-top: 106px;
+
+  }
+
+}
+
+@media screen and (min-width: 157px) {
+  body {
+    padding-top: 56px;
+  }
+}
